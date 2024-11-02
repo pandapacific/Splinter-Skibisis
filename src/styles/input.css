@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{box-sizing: border-box!important;}
+
+html,body{ 
+    margin: 0px;
+    padding: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+    /* overflow-x: hidden; */
+}
+
+
+::-webkit-scrollbar{display: none;}
+
+.one-bg{
+    background: url(../../Media/Pictures/project-title/Ouzen.png) no-repeat center;
+    background-size: cover;
+}
